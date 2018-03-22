@@ -11,7 +11,7 @@ Add these lines to your `composer.json`.
 
 ```json
 "require": {
-    "ariarijp/exception-to-slack-attachments": "dev-master"
+    "ariarijp/exception-to-slack-attachments": "0.1.0"
 }
 ```
 
