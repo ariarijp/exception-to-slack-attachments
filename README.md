@@ -1,10 +1,10 @@
 # exception-to-slack-attachments
-Format PHP Exception to Slack Attachments array for maknz/slack.
+Format PHP Exception to Slack Attachments array for alek13/slack.
 
 [![Circle CI](https://circleci.com/gh/ariarijp/exception-to-slack-attachments.svg?style=svg)](https://circleci.com/gh/ariarijp/exception-to-slack-attachments)
 
 ## Requirements
-PHP 5.5+ required.
+PHP 5.6+ is required.
 
 ## Installation
 Add these lines to your `composer.json`.
