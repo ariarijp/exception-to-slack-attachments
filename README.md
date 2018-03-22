@@ -20,13 +20,13 @@ Add these lines to your `composer.json`.
 ```php
 <?php
 
-require_once __DIR__.'/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
-use Maknz\Slack;
 use ExceptionToSlackAttachments\ExceptionToSlackAttachments;
+use Maknz\Slack;
 
 try {
-    throw new \Exception('Something went wrong');    
+    throw new \Exception('Something went wrong');
 } catch (\Exception $e) {
     $attachments = ExceptionToSlackAttachments::toAttachments($e);
 
